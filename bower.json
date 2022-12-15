@@ -1,29 +1,32 @@
 {
-  "name": "jstree-bootstrap-theme",
-  "version": "1.0.1",
-  "homepage": "https://github.com/orangehill/jstree-bootstrap-theme",
-  "description": "Reponsive jsTree Twitter Bootstrap 3 Compatible Theme",
-  "main": "./dist/themes/proton/style.css",
-  "authors": [
-    "Vedran Opacic <vedran.opacic@orangehilldev.com>",
-    "Tihomir Opacic <tihomir.opacic@orangehilldev.com>"
-  ],
-  "keywords": [
-    "jquery",
-    "bootstrap",
-    "jstree"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": ">= 1.11.1",
-    "bootstrap": "~3.0",
-    "jstree": "~3.3.4"
-  }
+    "name": "bootstrap-jstree-theme",
+    "version": "0.2.1",
+    "homepage": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme/overview",
+    "authors": [
+        "Aaron Upshaw"
+    ],
+    "description": "Bootstrap 3.x jsTree Theme",
+    "keywords": [
+        "ui",
+        "tree",
+        "jstree",
+        "themes"
+    ],
+    "main": "dist/themes/bootstrap/style.css",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "src",
+        "*.sublime-project",
+        "Gruntfile.coffee",
+        "bower.json",
+        "package.json"
+    ],
+    "dependencies": {
+        "jstree": "~3.0.0-beta9"
+    }
 }
